@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: image: aryanrajendramutadak04/easycrud-jenkins:frontend
+          image: aryanrajendramutadak04/easycrud-jenkins:frontend
           imagePullPolicy: Always
           ports:
             - containerPort: 80
